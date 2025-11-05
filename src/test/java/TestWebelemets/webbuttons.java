@@ -60,9 +60,10 @@ public class webbuttons {
 
 @Test(description = "This test case for loop dropdown testting")
 
-public void loopdropdown(){
+public void loopdropdown() throws InterruptedException {
 
         driver.findElement(By.id("divpaxinfo")).click();
+        Thread.sleep(3000);
 
 
     int i = 1;

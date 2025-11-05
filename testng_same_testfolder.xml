@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--<suite name="All Test Suite">-->
+<!--    <test verbose="2" preserve-order="true" name="C:/Users/Partho/IdeaProjects/AutomationClass3/target">-->
+<!--        <classes>-->
+<!--&lt;!&ndash;            <class name="Annotation.testclass1">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </class>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <class name="Annotation.testclass2">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </class>&ndash;&gt;-->
+
+<!--            <class name="Annotation.afterannotationclass3">-->
+
+<!--            </class>-->
+
+<!--            <class name="Annotation.afterannotationcalass4">-->
+
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    -->
+<!--&lt;!&ndash;    <test name="test folder2">&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="Annotation.testclass2">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </class>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <test name="test folder3">&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="Annotation.afterannotationclass3">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </class>&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+<!--</suite>-->

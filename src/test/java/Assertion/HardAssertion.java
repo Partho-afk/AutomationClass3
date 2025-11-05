@@ -29,7 +29,7 @@ public class HardAssertion {
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
         driver.findElement(By.id("login-button")).click();
-
+        //Assert.
 
         //       String expetedUrl = "https://www.saucedemo.com/inventory.html";
         //       String actualUrl = driver.getCurrentUrl();

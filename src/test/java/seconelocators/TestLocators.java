@@ -26,9 +26,9 @@ public class TestLocators {
     public void loginSauceDemo(){
         //System.out.println("I am stupid");
         //here (id) is locator that has been used for calling
-//        driver.findElement(By.id("user-name")).sendKeys("standard_user");
-//        driver.findElement(By.id("password")).sendKeys("secret_sauce");
-//        driver.findElement(By.id("login-button")).click();
+        driver.findElement(By.id("user-name")).sendKeys("standard_user");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+        driver.findElement(By.id("login-button")).click();
 
         //here (Name) is attribute which is also a locator
 //        driver.findElement(By.name("user-name")).sendKeys("standard_user");
@@ -76,7 +76,7 @@ public class TestLocators {
 //        //CSS selecot using attribute value
 //        driver.findElement(By.cssSelector("[name='login-button']")).click();
 
-        driver.findElement(By.cssSelector("input[type='text'].input_error")).sendKeys("Partho");
+  //      driver.findElement(By.cssSelector("input[type='text'].input_error")).sendKeys("Partho");
 
     }
 }
