@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+            <suite name="All Test Suite">
+                    <test verbose="2" preserve-order="true" name="C:/Users/Partho/IdeaProjects/AutomationClass3/pom.xml">
+<!--                        In this method i have used includes for calling particular methods "using 1 positive case 1 negative case"-->
+                        <classes>
+                            <class name="Assignment1.positive_class">
+                                <methods>
+                                    <include name="positive_case1" />
+                                </methods>
+                            </class>
+
+                            <class name="Assignment1.negative_class">
+                                <methods>
+                                    <include name="negative_case1" />
+                                </methods>
+                            </class>
+                        </classes>
+                    </test>
+            </suite>

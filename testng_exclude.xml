@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+        <suite name="All Test Suite">
+            <test verbose="2" preserve-order="true" name="C:/Users/Partho/IdeaProjects/AutomationClass3/pom.xml">
+<!--                In this xml i have calling one particular method for excluding that method -->
+                <classes>
+                    <class name="Assignment1.negative_class">
+                        <methods>
+<!--                    In my negative class there are total three method i am excluding one method out of three        -->
+                            <exclude name="negative_case3" />
+                        </methods>
+                    </class>
+                </classes>
+            </test>
+        </suite>
