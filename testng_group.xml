@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
     <suite name="All Test Suite">
             <test verbose="2" preserve-order="true" name="C:/Users/Partho/IdeaProjects/AutomationClass3/target">
-
+<!--            in this group i have run smoke testing so that i can check the basic functionalities of the system-->
                 <groups>
                     <run>
                         <include name="Smoke" />

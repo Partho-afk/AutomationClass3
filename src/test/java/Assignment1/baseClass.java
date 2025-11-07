@@ -15,7 +15,7 @@ public class baseClass {
     public WebDriver driver;
 
     //using beforetest as annotation
-    @BeforeMethod
+    @BeforeMethod(groups = {"Smoke"})
     //this class holds only setup that can be use by other classes
     public void setup(){
 
@@ -29,7 +29,7 @@ public class baseClass {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
-    @AfterMethod
+    @AfterMethod(groups = {"Smoke"})
     public void quit(){
         if (driver != null){
             driver.quit();
