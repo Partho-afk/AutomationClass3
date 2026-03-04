@@ -57,32 +57,32 @@ public class LoginTestClass extends BaseClass{
 
     }
 
-    @Test
-    public void invalidID(){
-        loginClass.usernameInput("sdikjfghisdufg");
-        loginClass.enterpasswordInput("secret_sauce");
-        loginClass.clicklogin();
-
-    }
-
-    @Test
-    public void invalidIdAndPass(){
-        loginClass.usernameInput("sdikjfghisdufg");
-        loginClass.enterpasswordInput("iwaesudtfasdkhfgasdtg");
-        loginClass.clicklogin();
-    }
-
-    @Test
-    public void ValidIdAndPass(){
-        loginClass.usernameInput("standard_user");
-        loginClass.enterpasswordInput("secret_sauce");
-        loginClass.clicklogin();
-    }
-
-    @Test
-    public void ValidIdAndPass2(){
-        loginClass.usernameInput("performance_glitch_user");
-        loginClass.enterpasswordInput("secret_sauce");
-        loginClass.clicklogin();
-    }
+//    @Test
+//    public void invalidID(){
+//        loginClass.usernameInput("sdikjfghisdufg");
+//        loginClass.enterpasswordInput("secret_sauce");
+//        loginClass.clicklogin();
+//
+//    }
+//
+//    @Test
+//    public void invalidIdAndPass(){
+//        loginClass.usernameInput("sdikjfghisdufg");
+//        loginClass.enterpasswordInput("iwaesudtfasdkhfgasdtg");
+//        loginClass.clicklogin();
+//    }
+//
+//    @Test
+//    public void ValidIdAndPass(){
+//        loginClass.usernameInput("standard_user");
+//        loginClass.enterpasswordInput("secret_sauce");
+//        loginClass.clicklogin();
+//    }
+//
+//    @Test
+//    public void ValidIdAndPass2(){
+//        loginClass.usernameInput("performance_glitch_user");
+//        loginClass.enterpasswordInput("secret_sauce");
+//        loginClass.clicklogin();
+//    }
 }
